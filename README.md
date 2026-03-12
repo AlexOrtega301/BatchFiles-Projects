@@ -20,7 +20,7 @@ This script is intended for testing and educational purposes related to Windows 
 
 ### Clear Defender History
 
-`ClearDefenderHistory.bat`
+`ClearDefenderHistory.cmd`
 
 A script that clears the **Microsoft Defender protection history**, removing previously logged threat records from the system interface.
 
