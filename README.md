@@ -1,54 +1,68 @@
+# BatchFile Projects
 
-# 🧰 Restablecedor de Prueba de Stardock (Versión — 2.0)
+A small collection of **Windows Batch scripts** created to automate system tasks and utilities.
 
-## 📄 Descripción
-
-Este repositorio contiene un script en **Batch (.bat)** diseñado **con fines educativos** para mostrar cómo se puede detectar y eliminar la carpeta `C:\ProgramData\Stardock`.
-**Echo Con Fines educativos, No Soporto la Pirateria de Software en Ningun Caso, Use este script bajo su propio riesgo**
+This repository contains practical `.bat` scripts designed to perform specific maintenance or system-related operations on Windows systems.
 
 ---
 
-## ⚙️ Qué hace el script (resumen)
+## 📦 Contents
 
-* Busca la carpeta `C:\ProgramData\Stardock`.
-* Muestra información sobre los archivos encontrados.
-* Solicita confirmación antes de eliminar.
-* Ofrece abrir `https://spam4.me/` en el navegador al finalizar.
+### StardockStart11 & WindowBlinds Trial Reset
 
----
+`StardockStart11&WindowBlindsTrialReset.bat`
 
-## 🛑 Aviso de seguridad y legal
+A batch script designed to reset the trial status of **Start11** and **WindowBlinds** from Stardock by clearing the related trial data stored in the system.
 
-* Si vas a ejecutar cualquier script que modifique archivos del sistema, **haz una copia de seguridad** antes y entiende las implicaciones.
-* **Echo Con Fines educativos, No Soporto la Pirateria de Software en Ningun Caso, Use este script bajo su propio riesgo**
+This script is intended for testing and educational purposes related to Windows scripting and software behavior.
 
 ---
 
-## 🧾 Requisitos
+### Clear Defender History
 
-* Windows 7 o superior.
-* Permisos suficientes para ver/eliminar `C:\ProgramData` (p. ej. Ejecutar como administrador si procede).
-* Navegador instalado (Chrome recomendado, pero no obligatorio).
+`ClearDefenderHistory.bat`
 
----
+A script that clears the **Microsoft Defender protection history**, removing previously logged threat records from the system interface.
 
-## 🔧 Uso recomendado (seguro)
+This can be useful when:
 
-1. Revisa el contenido del script y entiende cada línea.
-2. Haz copia de seguridad de cualquier dato importante.
-3. Ejecuta el script desde una cuenta con permisos adecuados (siempre preferible en una VM o entorno controlado para pruebas).
-4. Revisa la salida que muestre el script antes de aceptar cualquier eliminación.
-5. Mantén un registro (log) de operaciones si lo vas a usar repetidamente en pruebas.
+* resetting the security log view
+* cleaning outdated detection history
+* testing Defender behavior
 
 ---
 
-## ❓ Preguntas frecuentes
+## ⚙️ About Batch Scripts
 
-**P: ¿Este script activa o piratea software?**
-R: No. Este script solo manipula datos locales relacionados con pruebas. Nunca activa licencias ni modifica servidores de licenciamiento. **Echo Con Fines educativos, No Soporto la Pirateria de Software en Ningun Caso, Use este script bajo su propio riesgo**
+Batch files (`.bat`) are simple scripts used in Windows to automate command-line tasks.
+They can execute system commands, manage files, and control certain operating system features.
 
-**P: ¿Puedo usarlo para "restablecer" pruebas indefinidamente?**
-R: No puedo ayudar con métodos para evadir licencias o políticas de uso. Si necesitas más tiempo de evaluación, contacta al proveedor o compra la licencia correspondiente.
+Despite their simplicity, batch scripts remain a powerful tool for:
+
+* system maintenance
+* automation
+* administrative tasks
+* testing Windows behavior
 
 ---
 
+## 🎯 Purpose
+
+This repository serves as a **collection of small automation utilities and scripting experiments** written in Windows Batch.
+
+Each script focuses on solving a specific task with minimal dependencies.
+
+---
+
+## ⚠️ Disclaimer
+
+These scripts interact with Windows system components.
+Use them carefully and always review the code before running scripts obtained from the internet.
+
+---
+
+## 👨‍💻 Author
+
+**David Alejandro Ortega García**
+
+Student programmer exploring scripting, automation, and system-level experimentation on Windows.
